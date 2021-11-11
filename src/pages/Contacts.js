@@ -1,11 +1,6 @@
-import React, { useState, Component, useEffect } from "react";
-import { useLocation } from "react-router-dom";
-import { useHistory, Route } from "react-router";
-import { render } from "react-dom";
-import { useContacts } from "../apis/contactsApi";
+import React from "react";
+import { Route } from "react-router";
 import "../css/Contacts.css";
-import ContactsOptionsBar from "../components/ContactsOptionsBar";
-import { BsListUl } from "react-icons/bs";
 import { IoMdArrowDropdown, IoMdArrowDropleft } from "react-icons/io";
 import { AiOutlineStar, AiFillStar } from "react-icons/ai";
 import { IconContext } from "react-icons";
@@ -141,76 +136,84 @@ class Contacts extends React.Component {
                         >
                             Columns <IoMdArrowDropdown />
                         </button>
-                        <div className="dropdown-content">
+                        <ul className="dropdown-content">
                             {this.state.organisation ? (
                                 <button
+                                    id="quickview--dropdown-selected"
                                     onClick={() =>
                                         this.setState({ organisation: false })
                                     }
                                 >
-                                    &#x2611; Organisation{" "}
+                                    Organisation
                                 </button>
                             ) : (
                                 <button
+                                    id="quickview--dropdown-deselected"
                                     onClick={() =>
                                         this.setState({ organisation: true })
                                     }
                                 >
-                                    &#x2610; Organisation{" "}
+                                    Organisation
                                 </button>
                             )}
                             {this.state.role ? (
                                 <button
+                                    id="quickview--dropdown-selected"
                                     onClick={() =>
                                         this.setState({ role: false })
                                     }
                                 >
-                                    &#x2611; Role
+                                    Role
                                 </button>
                             ) : (
                                 <button
+                                    id="quickview--dropdown-deselected"
                                     onClick={() =>
                                         this.setState({ role: true })
                                     }
                                 >
-                                    &#x2610; Show Role
+                                    Role
                                 </button>
                             )}
                             {this.state.email ? (
                                 <button
+                                    id="quickview--dropdown-selected"
                                     onClick={() =>
                                         this.setState({ email: false })
                                     }
                                 >
-                                    &#x2611; Email
+                                    Email
                                 </button>
                             ) : (
                                 <button
+                                    id="quickview--dropdown-deselected"
                                     onClick={() =>
                                         this.setState({ email: true })
                                     }
                                 >
-                                    &#x2610; Show Email
+                                    Email
                                 </button>
                             )}
                             {this.state.phone ? (
                                 <button
+                                    id="quickview--dropdown-selected"
                                     onClick={() =>
                                         this.setState({ phone: false })
                                     }
                                 >
-                                    &#x2611; Phone
+                                    Phone
                                 </button>
                             ) : (
                                 <button
+                                    id="quickview--dropdown-deselected"
                                     onClick={() =>
                                         this.setState({ phone: true })
                                     }
                                 >
-                                    &#x2610; Show Phone
+                                    Phone
                                 </button>
                             )}
-                        </div>
+                        </ul>
                     </div>
                 </div>
             );
