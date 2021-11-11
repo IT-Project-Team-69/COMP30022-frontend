@@ -30,7 +30,7 @@ class CustomInputField extends React.Component {
         return (
             <div className="input-field custom-input-field">
                 <div className="label">
-                    <label for={this.props.name}>
+                    <label htmlFor={this.props.name}>
                         <input
                             type="text"
                             className="custom-input-label"

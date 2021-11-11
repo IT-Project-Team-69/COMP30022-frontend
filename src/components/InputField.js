@@ -24,7 +24,7 @@ class InputField extends React.Component {
                     <label
                         className="label"
                         id={this.props.name}
-                        htmlFor={this.props.name}
+                        htmlhtmlFor={this.props.name}
                     >
                         {this.props.label}
                     </label>
