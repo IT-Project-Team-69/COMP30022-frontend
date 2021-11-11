@@ -236,7 +236,6 @@ class Contacts extends React.Component {
                             className="dropbtn"
                             onClick={() => this.setState({ dropdown: true })}
                         >
-                            {" "}
                             Columns <IoMdArrowDropleft />
                         </button>
                     </div>
