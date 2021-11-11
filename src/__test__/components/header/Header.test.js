@@ -14,7 +14,7 @@ test("Header contains logo image", () => {
 
 test("Header contains profile icon", () => {
     render(<Header />);
-    const profileIcon = screen.getByAltText("User profile picture");
+    const profileIcon = screen.getByAltText("Dropdown icon");
     expect(profileIcon).toBeInTheDocument();
 })
 
