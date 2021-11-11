@@ -232,6 +232,9 @@ export default class ContactOverlay extends React.Component {
                 });
                 break;
             }
+            default: {
+                break;
+            }
         }
         this.setState({
             changes: true,

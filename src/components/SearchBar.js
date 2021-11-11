@@ -1,6 +1,5 @@
 import React from "react";
 import "../css/SearchBar.css";
-import { FontAwesome } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 
 class SearchBar extends React.Component {

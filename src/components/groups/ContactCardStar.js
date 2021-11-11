@@ -1,15 +1,10 @@
 import React from "react";
-import { Star, StarOutline } from "@material-ui/icons";
 import "../../css/Groups.css";
 import ContactsAPI from "../../apis/contactsApi";
 import { AiOutlineStar, AiFillStar } from "react-icons/ai";
 import { IconContext } from "react-icons";
 
 export default class ContactCardStar extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     toggleStar = async (event) => {
         event.stopPropagation();
         await ContactsAPI.toggleStar(this.props.url, !this.props.starred);

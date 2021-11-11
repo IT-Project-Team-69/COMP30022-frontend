@@ -42,7 +42,7 @@ export class GroupsAPI {
             }),
         };
         const response = await fetch(BASE_URL + "groups/", requestOptions);
-        var groups = await response.json();
+        return response.json();
     };
 
     static deleteGroup = async (url) => {

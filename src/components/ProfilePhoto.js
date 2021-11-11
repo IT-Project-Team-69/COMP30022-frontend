@@ -1,8 +1,5 @@
 import React from "react";
-import axios from "axios";
 import "../css/Profile.css";
-import { FontAwesome } from "react-icons/fa";
-import { FaCamera } from "react-icons/fa";
 
 /**
  * Profile photo icon which can be found on the profile page
@@ -25,7 +22,7 @@ class ProfilePhoto extends React.Component {
         this.props.onChange(event);
     };
 
-    onFileSelect = (event) => {
+    onFileSelect = () => {
         this.hiddenInputRef.current.click();
     };
 

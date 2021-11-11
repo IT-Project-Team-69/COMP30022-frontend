@@ -354,7 +354,7 @@ class Contacts extends React.Component {
                 .map((item, index) => {
                     let x = index % 2;
                     return (
-                        <div className={"person color-" + x}>
+                        <div className={"person color-" + x} key={index}>
                             <div className="row-left">
                                 <div className="w-5 row-item">
                                     {this.showInitials(item)}
