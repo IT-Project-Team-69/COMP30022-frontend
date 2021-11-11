@@ -100,7 +100,6 @@ class Contacts extends React.Component {
         };
         const response = await fetch(BASE_URL + "contacts/", requestOptions);
         const data = await response.json();
-        console.log(JSON.stringify(data));
         if (data.length != this.state.contacts.length)
             this.setState({ contacts: data });
     };
@@ -303,7 +302,6 @@ class Contacts extends React.Component {
         if (this.state.contacts.length > 0) {
             return this.state.contacts
                 .filter((val) => {
-                    console.log(val);
                     if (this.state.searchTerm === "") {
                         return val;
                     } else if (
