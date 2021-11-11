@@ -1,5 +1,6 @@
 import React from "react";
 import "../../css/Quickview.css";
+import { IoMdArrowDropdown, IoMdArrowDropleft } from "react-icons/io";
 
 export default class Quickview extends React.Component {
     constructor(props) {
@@ -58,6 +59,11 @@ export default class Quickview extends React.Component {
         });
     };
 
+    getIcon = () => {
+        if (this.state.active) return <IoMdArrowDropdown />;
+        return <IoMdArrowDropleft />;
+    }
+
     render() {
         return (
             <div className="quickview">
@@ -65,7 +71,7 @@ export default class Quickview extends React.Component {
                     className="quickview--button"
                     onClick={this.toggleDropdown}
                 >
-                    Quickview
+                    Quickview {this.getIcon()}
                 </div>
                 {this.showDropdown()}
             </div>

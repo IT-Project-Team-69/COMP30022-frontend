@@ -137,8 +137,8 @@ a:hover {
 }
 
 .dropdown-box {
-    padding: 0em 20px 0px 10px;
-    width: 150px;
+    padding: 0em 20px 0px 5px;
+    width: 220px;
     margin-top: auto;
     margin-bottom: auto;
     display: inline-block;
