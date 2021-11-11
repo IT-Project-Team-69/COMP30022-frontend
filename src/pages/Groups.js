@@ -41,6 +41,8 @@ export default class Groups extends React.Component {
             quickview: [
                 this.state.quickviewOptions[0],
                 this.state.quickviewOptions[1],
+                this.state.quickviewOptions[2],
+                this.state.quickviewOptions[3],
             ],
         });
     };
@@ -59,7 +61,6 @@ export default class Groups extends React.Component {
         this.setState({
             quickview: quickview,
         });
-        console.log(this.state.quickview);
     };
 
     contactInQuery = (contact) => {

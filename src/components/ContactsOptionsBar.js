@@ -1,17 +1,10 @@
 import React from "react";
 import "../css/ContactsOptionsBar.css";
 import ContactsViewButton from "./ContactsViewButton";
-import SearchBar from "./SearchBar";
-import { FontAwesome } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
-import { useHistory, Route } from "react-router";
-import EditContact from "./EditContact";
-import { useLocation } from "react-router-dom";
-import { Redirect, withRouter } from "react-router-dom";
+import { Route } from "react-router";
+import { withRouter } from "react-router-dom";
 import AddContact from "./AddContact";
-
-const BASE_URL = "https://team-69-backend.herokuapp.com/crm/";
-// const BASE_URL = "http://127.0.0.1:8000/crm/";
 
 /*
     Contacts Options Bar 

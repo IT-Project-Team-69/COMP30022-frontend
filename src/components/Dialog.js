@@ -83,7 +83,7 @@ export default function CustomizedDialogs() {
                     Contact Details
                 </DialogTitle>
                 <DialogContent dividers>
-                    <div class="split">
+                    <div className="split">
                         <div>First Name</div>
                         <InputField />
                         <div>Last Name</div>

@@ -67,27 +67,29 @@ class AppRouter extends React.Component {
                     <Route exact path="/auth/logout">
                         <Redirect to="/" />
                     </Route>
-                    <div>
-                        <Header />
-                        <Route
-                            exact
-                            path="/profile"
-                            component={Profile}
-                        ></Route>
-                        <Route
-                            exact
-                            path="/settings"
-                            component={Settings}
-                        ></Route>
-                        <Route
-                            path="/groups"
-                            component={this.groupsPage}
-                        ></Route>
-                        <Route
-                            path="/contacts"
-                            component={this.contactsPage}
-                        ></Route>
-                    </div>
+                    <React.Fragment>
+                        <div>
+                            <Header />
+                            <Route
+                                exact
+                                path="/profile"
+                                component={Profile}
+                            ></Route>
+                            <Route
+                                exact
+                                path="/settings"
+                                component={Settings}
+                            ></Route>
+                            <Route
+                                path="/groups"
+                                component={this.groupsPage}
+                            ></Route>
+                            <Route
+                                path="/contacts"
+                                component={this.contactsPage}
+                            ></Route>
+                        </div>
+                    </React.Fragment>
                 </Switch>
             </Router>
         );

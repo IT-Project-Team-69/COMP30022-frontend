@@ -1,6 +1,5 @@
 import React from "react";
 import "../../css/Header.css";
-import ProfileAPI from "../../apis/profileApi";
 
 /**
  * Profile Icon
@@ -68,7 +67,7 @@ class ProfileIcon extends React.Component {
                 <img
                     className={"profile-icon " + this.state.mode}
                     src={this.state.url}
-                    alt="User profile picture"
+                    alt="Dropdown icon"
                     onClick={this.toggleMenu}
                 ></img>
                 {this.getNavMenu()}

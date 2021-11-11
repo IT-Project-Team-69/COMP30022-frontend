@@ -15,7 +15,7 @@ class ContactCard extends React.Component {
     }
 
     componentDidUpdate(prevProps) {
-        if (prevProps != this.props) {
+        if (prevProps !== this.props) {
             this.updateQuickView();
         }
     }

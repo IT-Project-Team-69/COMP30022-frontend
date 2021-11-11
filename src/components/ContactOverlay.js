@@ -185,7 +185,7 @@ export default class ContactOverlay extends React.Component {
         this.setState({
             customInput: newCustomInputs,
             changes: true,
-            deletedInput: deletedInput
+            deletedInput: deletedInput,
         });
     };
 
@@ -230,6 +230,9 @@ export default class ContactOverlay extends React.Component {
                     group: newValue,
                     groups: groups,
                 });
+                break;
+            }
+            default: {
                 break;
             }
         }
@@ -307,7 +310,7 @@ export default class ContactOverlay extends React.Component {
                                     onChange={this.changeHandler}
                                     value={this.state.lastName}
                                 />
-                                <label for="group">Group</label>
+                                <label htmlFor="group">Group</label>
                                 <CreatableSelect
                                     isClearable
                                     onChange={this.onGroupSelect}

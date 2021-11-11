@@ -1,6 +1,6 @@
 import React from "react";
 import "../../css/Header.css";
-import { FaSun, FontAwesome } from "react-icons/fa";
+import { FaSun } from "react-icons/fa";
 import { FaMoon } from "react-icons/fa";
 
 /**

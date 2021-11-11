@@ -1,7 +1,6 @@
 import React from "react";
 import InputField from "../../components/InputField";
 import AuthController from "../../controllers/AuthController";
-import AuthAPI from "../../apis/authApi";
 
 class EnterEmail extends React.Component {
     constructor(props) {
@@ -28,6 +27,7 @@ class EnterEmail extends React.Component {
                 <img
                     className="logo auth-logo"
                     src="knotwork-textonly.png"
+                    alt="Knotwork logo"
                 ></img>
                 <InputField
                     name="email"
