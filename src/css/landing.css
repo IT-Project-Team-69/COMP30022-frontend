@@ -1,25 +1,26 @@
 div.shadow2{
   position:absolute;
-  max-width:45%;
-  max-height:45%;
   left:50%;
   overflow:visible;
+  height: 15%
 }
 img.logoLand {
   position:relative;
   width:100%;
+  top:50%;
   height:100%;
-  margin-left:-50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   border: none;
   border-radius: 0;
 }
 
 .rectangle {
   position: absolute;
-  top: 10%;
+  top: 15%;
   background-color: #7175B7;
   width: 100%;
-  height: 55%;
+  height: 60%;
 }
 
 .slogan{
@@ -28,46 +29,56 @@ img.logoLand {
   font-family: Poppins;
 font-style: normal;
 font-weight: bold;
-max-width:50%;
+max-width:100%;
 font-size: 44px;
 line-height: 44px;
 text-align: center;
-left: 25%;
+left: 50%;
 top: 10%;
+-ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
 
 }
 
 .register{
   position: absolute;
-  top: 70%;
+  top: 80%;
 font-family: Poppins;
 font-style: normal;
 font-weight: 600;
-font-size: 30px;
+font-size: 200%;
 line-height: 45px;
 text-align: center;
-margin-left: 30%;
 color: #7175B7;
+-ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 50%
 }
 
 .register-button {
   position: absolute;
-  left: 45%;
-  top: 75%;
+  align-content: center;
+  left: 50%;
+  top: 85%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .login-button {
-  top: 30%;
+  top: 45%;
   position: absolute;
-  left: 80%;
   color: #7175B7;
   font-size: 130%;
+  right: 10%
 }
 
 .pic {
   position: relative;
   border-radius: 0%;
   border: none;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .group-pic {
@@ -77,7 +88,6 @@ color: #7175B7;
 }
 
 .text1 {
-  left: -30%;
   position: relative;
   font-family: Poppins;
   font-style: normal;
@@ -86,11 +96,14 @@ color: #7175B7;
   line-height: 45px;
   text-align: center;
   color: #FFFFFF;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .sub1 {
   position: relative;
-  left: -5%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-family: Proxima Nova;
 font-style: normal;
 font-weight: normal;
@@ -107,7 +120,8 @@ max-width: 50%;
 
 .text2 {
   position: relative;
-  left: -25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
@@ -119,7 +133,8 @@ max-width: 50%;
 
 .text3 {
   position: relative;
-  left: -30%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
@@ -130,6 +145,8 @@ max-width: 50%;
 }
 
 .sub1 {
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   position: relative;
   font-family: Proxima Nova;
 font-style: normal;
@@ -142,12 +159,13 @@ text-align: center;
 
 color: #FFFFFF;
 font-size: 18px;
-max-width: 50%;
+max-width: 70%;
 }
 
 .sub2 {
   position: relative;
-  left: -10%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-family: Proxima Nova;
 font-style: normal;
 font-weight: normal;
@@ -162,7 +180,8 @@ color: #FFFFFF;
 }
 
 .sub3 {
-  left: -15%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   position: relative;
   font-family: Proxima Nova;
 font-style: normal;

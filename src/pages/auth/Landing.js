@@ -15,7 +15,9 @@ class Landing extends React.Component {
                     src="knotwork-02.png"
                     alt="Knotwork logo"
                 ></img>
-                <div class="login-button">
+                <div class="login-button" onClick={() =>
+                            this.props.history.push("/auth/login")
+                        }>
                     LOG IN
                 </div>
             </div>
@@ -83,7 +85,7 @@ class Landing extends React.Component {
                         type="button"
                         name="next"
                         onClick={() =>
-                            this.props.history.push("/")
+                            this.props.history.push("/auth/signup")
                         }
                     >
                         REGISTER

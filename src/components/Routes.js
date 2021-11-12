@@ -14,6 +14,7 @@ import Login from "../pages/auth/Login";
 import Profile from "../pages/Profile";
 import ContactsOptionsBar from "./ContactsOptionsBar";
 import Settings from "../pages/Settings";
+import Landing from "../pages/auth/Landing";
 
 /**
  * App Router
@@ -60,7 +61,7 @@ class AppRouter extends React.Component {
                             <Redirect to="/groups" />
                         </Route>
                     ) : (
-                        <Route exact path="/" component={EnterEmail} />
+                        <Route exact path="/" component={Landing} />
                     )}
                     <Route exact path="/auth/signup" component={SignUp} />
                     <Route exact path="/auth/login" component={Login} />
