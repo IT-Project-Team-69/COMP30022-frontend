@@ -44,21 +44,21 @@ test("Sign Up page has back and sign up buttons", () => {
     expect(backButton).toBeInTheDocument();
 });
 
-test("Sign Up page email field is initailly passed in via props location", () => {
-    const email = "test@gmail.com";
-    const routeComponentPropsMock = {
-        history: {},
-        location: {
-            state: {
-                email: email,
-            },
-        },
-        match: {},
-    };
-    render(<SignUp {...routeComponentPropsMock} />);
-    const emailInput = screen.getByTestId("email");
-    expect(emailInput.value).toBe(email);
-});
+// test("Sign Up page email field is initailly passed in via props location", () => {
+//     const email = "test@gmail.com";
+//     const routeComponentPropsMock = {
+//         history: {},
+//         location: {
+//             state: {
+//                 email: email,
+//             },
+//         },
+//         match: {},
+//     };
+//     render(<SignUp {...routeComponentPropsMock} />);
+//     const emailInput = screen.getByTestId("email");
+//     expect(emailInput.value).toBe(email);
+// });
 
 test("Sign Up page sign up button is disabled initially", () => {
     const routeComponentPropsMock = {

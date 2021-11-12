@@ -1,215 +1,152 @@
-div.shadow2{
-  position:absolute;
-  left:50%;
-  overflow:visible;
-  height: 15%
-}
-img.logoLand {
-  position:relative;
-  width:100%;
-  top:50%;
-  height:100%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  border: none;
-  border-radius: 0;
+.landing-top-region {
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.rectangle {
-  position: absolute;
-  top: 15%;
-  background-color: #7175B7;
-  width: 100%;
-  height: 60%;
-}
-
-.slogan{
-  position: relative;
-  color: white;
-  font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-max-width:100%;
-font-size: 44px;
-line-height: 44px;
-text-align: center;
-left: 50%;
-top: 10%;
--ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-
-
-}
-
-.register{
-  position: absolute;
-  top: 80%;
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 200%;
-line-height: 45px;
-text-align: center;
-color: #7175B7;
--ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  left: 50%
-}
-
-.register-button {
-  position: absolute;
-  align-content: center;
-  left: 50%;
-  top: 85%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.landing-logo {
+    border-radius: 0;
+    border: none;
+    width: 400px;
+    height: auto;
 }
 
 .login-button {
-  top: 45%;
-  position: absolute;
-  color: #7175B7;
-  font-size: 130%;
-  right: 10%
+    color: var(--logo-purple);
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.rectangle {
+    background-color: var(--logo-purple);
+    padding: 80px 30px 30px 30px;
+    text-align: center;
+}
+
+.slogan {
+    font-weight: 700;
+    font-size: 48px;
+    padding: 20px 100px;
+    color: white;
+}
+
+.icons-content {
+    display: flex;
+    justify-content: center;
 }
 
 .pic {
-  position: relative;
-  border-radius: 0%;
-  border: none;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 0;
 }
 
 .group-pic {
-  position: relative;
-  border-radius: 0%;
-  border: none;
+    text-align: center;
+    color: white;
+    margin: 30px 50px;
 }
 
-.text1 {
-  position: relative;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 25px;
-  line-height: 45px;
-  text-align: center;
-  color: #FFFFFF;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.text {
+    font-size: 20px;
+    font-weight: 700;
 }
 
-.sub1 {
-  position: relative;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-family: Proxima Nova;
-font-style: normal;
-font-weight: normal;
-
-line-height: 25px;
-/* or 104% */
-
-text-align: center;
-
-color: #FFFFFF;
-font-size: 18px;
-max-width: 50%;
+.register {
+    text-align: center;
+    color: var(--logo-purple);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
 }
 
-.text2 {
-  position: relative;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 25px;
-  line-height: 45px;
-  text-align: center;
-  color: #FFFFFF;
+.action-buttons {
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
-.text3 {
-  position: relative;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 25px;
-  line-height: 45px;
-  text-align: center;
-  color: #FFFFFF;
+@media (min-width: 1415px) {
+    .rectangle {
+        padding: 80px 250px 30px 250px;
+    }
+
+    .slogan {
+        font-size: 54px;
+    }
+
+    .group-pic {
+        margin: 50px 50px;
+    }
+
+    .register {
+        font-size: 30px;
+    }
 }
 
-.sub1 {
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  position: relative;
-  font-family: Proxima Nova;
-font-style: normal;
-font-weight: normal;
-
-line-height: 25px;
-/* or 104% */
-
-text-align: center;
-
-color: #FFFFFF;
-font-size: 18px;
-max-width: 70%;
+@media (max-width: 916px) {
+    .slogan {
+        font-size: 36px;
+    }
 }
 
-.sub2 {
-  position: relative;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-family: Proxima Nova;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-max-width: 70%;
-line-height: 25px;
-/* or 104% */
+@media (max-width: 751px) {
+    .slogan {
+        padding: 20px 20px;
+        margin-bottom: 60px;
+    }
 
-text-align: center;
+    .group-pic {
+        text-align: center;
+        color: white;
+        margin: 30px 20px;
+    }
 
-color: #FFFFFF;
+    .landing-logo {
+        width: 300px;
+    }
 }
 
-.sub3 {
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  position: relative;
-  font-family: Proxima Nova;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-max-width: 70%;
-line-height: 25px;
-/* or 104% */
+@media (max-width: 591px) {
+    .landing-logo {
+        width: 200px;
+    }
 
-text-align: center;
+    .slogan {
+        font-size: 28px;
+    }
 
-color: #FFFFFF;
+    .text {
+        font-size: 16px;
+    }
+
+    .sub {
+        font-size: 14px;
+    }
 }
 
-.left-item{
-  position: absolute;
-  left: 25%;
-  top:50%;
-}
+@media (max-width: 428px) {
+    .group-pic {
+        text-align: center;
+        color: white;
+        margin-bottom: 20px;
+    }
 
-.middle-item{
-  position: absolute;
-  left: 50%;
-  top:50%;
-}
+    .icons-content {
+        display: block;
+    }
 
-.right-item{
-  position: absolute;
-  left: 75%;
-  top:50%;
+    .slogan {
+        margin: 0;
+        padding: 0;
+        font-size: 22px;
+    }
+
+    .rectangle {
+        padding: 50px 30px 30px 30px;
+    }
+
+    .register {
+        font-size: 16px;
+        padding: 0px 20px;
+    }
 }

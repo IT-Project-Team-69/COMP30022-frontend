@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1636648410405" clover="3.2.0">
-  <project timestamp="1636648410407" name="All files">
-    <metrics statements="830" coveredstatements="198" conditionals="256" coveredconditionals="38" methods="242" coveredmethods="49" elements="1328" coveredelements="285" complexity="0" loc="830" ncloc="830" packages="8" files="33" classes="33"/>
+<coverage generated="1636727648425" clover="3.2.0">
+  <project timestamp="1636727648425" name="All files">
+    <metrics statements="833" coveredstatements="199" conditionals="256" coveredconditionals="38" methods="245" coveredmethods="50" elements="1334" coveredelements="287" complexity="0" loc="833" ncloc="833" packages="8" files="34" classes="34"/>
     <package name="src">
       <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
       <file name="App.js" path="/Users/joanneng/Desktop/it_project/COMP30022-frontend/src/App.js">
@@ -418,9 +418,9 @@
       </file>
       <file name="InputField.js" path="/Users/joanneng/Desktop/it_project/COMP30022-frontend/src/components/InputField.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="16" count="51" type="stmt"/>
+        <line num="16" count="43" type="stmt"/>
         <line num="17" count="199" type="stmt"/>
-        <line num="21" count="1405" type="stmt"/>
+        <line num="21" count="1397" type="stmt"/>
       </file>
       <file name="Loading.js" path="/Users/joanneng/Desktop/it_project/COMP30022-frontend/src/components/Loading.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -445,16 +445,16 @@
       </file>
       <file name="Routes.js" path="/Users/joanneng/Desktop/it_project/COMP30022-frontend/src/components/Routes.js">
         <metrics statements="10" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="3"/>
-        <line num="25" count="1" type="stmt"/>
         <line num="26" count="1" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
         <line num="32" count="1" type="stmt"/>
         <line num="33" count="1" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="45" count="1" type="stmt"/>
-        <line num="46" count="0" type="stmt"/>
-        <line num="55" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.groups">
@@ -876,37 +876,43 @@
       </file>
     </package>
     <package name="src.pages.auth">
-      <metrics statements="68" coveredstatements="47" conditionals="15" coveredconditionals="8" methods="20" coveredmethods="14"/>
+      <metrics statements="71" coveredstatements="48" conditionals="15" coveredconditionals="8" methods="23" coveredmethods="15"/>
       <file name="EnterEmail.js" path="/Users/joanneng/Desktop/it_project/COMP30022-frontend/src/pages/auth/EnterEmail.js">
         <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
-        <line num="7" count="6" type="stmt"/>
-        <line num="8" count="6" type="stmt"/>
-        <line num="15" count="6" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
         <line num="16" count="52" type="stmt"/>
         <line num="17" count="52" type="stmt"/>
         <line num="18" count="52" type="stmt"/>
-        <line num="25" count="110" type="stmt"/>
+        <line num="25" count="109" type="stmt"/>
         <line num="54" count="0" type="stmt"/>
+      </file>
+      <file name="Landing.js" path="/Users/joanneng/Desktop/it_project/COMP30022-frontend/src/pages/auth/Landing.js">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
       </file>
       <file name="Login.js" path="/Users/joanneng/Desktop/it_project/COMP30022-frontend/src/pages/auth/Login.js">
         <metrics statements="25" coveredstatements="16" conditionals="6" coveredconditionals="3" methods="7" coveredmethods="5"/>
         <line num="7" count="2" type="stmt"/>
-        <line num="9" count="6" type="stmt"/>
-        <line num="10" count="6" type="stmt"/>
-        <line num="23" count="6" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="23" count="5" type="stmt"/>
         <line num="24" count="13" type="stmt"/>
         <line num="25" count="13" type="stmt"/>
         <line num="26" count="13" type="stmt"/>
-        <line num="32" count="6" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
         <line num="33" count="26" type="stmt"/>
         <line num="34" count="26" type="cond" truecount="1" falsecount="1"/>
         <line num="35" count="26" type="stmt"/>
         <line num="39" count="0" type="stmt"/>
-        <line num="45" count="6" type="stmt"/>
-        <line num="46" count="84" type="cond" truecount="2" falsecount="0"/>
-        <line num="49" count="6" type="stmt"/>
+        <line num="45" count="5" type="stmt"/>
+        <line num="46" count="83" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="5" type="stmt"/>
         <line num="50" count="0" type="stmt"/>
-        <line num="54" count="6" type="stmt"/>
+        <line num="54" count="5" type="stmt"/>
         <line num="55" count="0" type="stmt"/>
         <line num="59" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="60" count="0" type="stmt"/>
@@ -914,37 +920,37 @@
         <line num="62" count="0" type="stmt"/>
         <line num="63" count="0" type="stmt"/>
         <line num="65" count="0" type="stmt"/>
-        <line num="72" count="84" type="stmt"/>
+        <line num="72" count="83" type="stmt"/>
       </file>
       <file name="SignUp.js" path="/Users/joanneng/Desktop/it_project/COMP30022-frontend/src/pages/auth/SignUp.js">
         <metrics statements="35" coveredstatements="24" conditionals="9" coveredconditionals="5" methods="9" coveredmethods="6"/>
-        <line num="8" count="6" type="stmt"/>
-        <line num="9" count="6" type="stmt"/>
-        <line num="31" count="6" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
         <line num="32" count="0" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
         <line num="34" count="0" type="stmt"/>
-        <line num="40" count="6" type="stmt"/>
+        <line num="40" count="5" type="stmt"/>
         <line num="41" count="38" type="stmt"/>
         <line num="42" count="38" type="stmt"/>
         <line num="43" count="38" type="stmt"/>
         <line num="44" count="38" type="stmt"/>
         <line num="45" count="38" type="stmt"/>
-        <line num="51" count="6" type="stmt"/>
+        <line num="51" count="5" type="stmt"/>
         <line num="52" count="28" type="stmt"/>
         <line num="53" count="28" type="stmt"/>
         <line num="54" count="28" type="stmt"/>
         <line num="59" count="28" type="stmt"/>
         <line num="63" count="28" type="stmt"/>
-        <line num="69" count="6" type="stmt"/>
+        <line num="69" count="5" type="stmt"/>
         <line num="70" count="28" type="stmt"/>
         <line num="71" count="28" type="stmt"/>
         <line num="75" count="28" type="stmt"/>
-        <line num="81" count="6" type="stmt"/>
-        <line num="82" count="222" type="stmt"/>
-        <line num="91" count="6" type="stmt"/>
+        <line num="81" count="5" type="stmt"/>
+        <line num="82" count="221" type="stmt"/>
+        <line num="91" count="5" type="stmt"/>
         <line num="92" count="0" type="stmt"/>
-        <line num="95" count="6" type="stmt"/>
+        <line num="95" count="5" type="stmt"/>
         <line num="97" count="0" type="stmt"/>
         <line num="103" count="0" type="cond" truecount="0" falsecount="4"/>
         <line num="104" count="0" type="stmt"/>
@@ -952,7 +958,7 @@
         <line num="106" count="0" type="stmt"/>
         <line num="107" count="0" type="stmt"/>
         <line num="109" count="0" type="stmt"/>
-        <line num="117" count="222" type="stmt"/>
+        <line num="117" count="221" type="stmt"/>
       </file>
     </package>
   </project>

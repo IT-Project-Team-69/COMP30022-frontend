@@ -63,6 +63,7 @@ class AppRouter extends React.Component {
                     ) : (
                         <Route exact path="/" component={Landing} />
                     )}
+                    <Route exact path="/auth/email" component={EnterEmail} />
                     <Route exact path="/auth/signup" component={SignUp} />
                     <Route exact path="/auth/login" component={Login} />
                     <Route exact path="/auth/logout">
